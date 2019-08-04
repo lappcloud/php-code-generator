@@ -95,7 +95,7 @@ json对象数组转php数组(通过模板过滤)
      
 #### 2.生成普通数组（只取某一列组成数组，默认第一列）
     
-    include '../vendor/autoload.php';
+    include 'vendor/autoload.php';
     
     // 生成普通数组（只取某一列组成数组，默认第一列）
     $string = <<<STR
@@ -137,7 +137,7 @@ json对象数组转php数组(通过模板过滤)
 
 #### 3.取excel的第2列数据作为key，第3列作为value，第三列数据作为value生成关联数组
       
-      include '../vendor/autoload.php';
+      include 'vendor/autoload.php';
       
       // 取excel的第2列数据作为key，第三列数据作为value生成关联数组
       
@@ -178,7 +178,7 @@ json对象数组转php数组(通过模板过滤)
       
 #### 4.json对象数组转php数组(原样输出)
 
-    include '../vendor/autoload.php';
+    include 'vendor/autoload.php';
     
     use lappcloud\codegen\GenPHPCode;
     
@@ -222,7 +222,7 @@ json对象数组转php数组(通过模板过滤)
     
 #### 5.json对象数组转php数组(通过模板过滤)
 
-    include '../vendor/autoload.php';
+    include 'vendor/autoload.php';
     
     use lappcloud\codegen\GenPHPCode;
     
@@ -280,7 +280,7 @@ json对象数组转php数组(通过模板过滤)
     ];
     
 #### 6.json对象数组转php数组(通过模板校验)
-    include '../vendor/autoload.php';
+    include 'vendor/autoload.php';
     
     use lappcloud\codegen\format\FormatByTemplate;
     

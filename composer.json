@@ -1,6 +1,7 @@
 {
     "name": "lappcloud/php-code-generator",
     "description": "PHP代码生成",
+    "license": "MIT",
     "type": "library",
     "require": {
         "php": ">=5.4"
