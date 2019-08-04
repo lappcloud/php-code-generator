@@ -1,0 +1,20 @@
+{
+    "name": "lappcloud/php-code-generator",
+    "description": "PHP代码生成",
+    "type": "library",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "justin",
+            "email": "lappcloud@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "lappcloud\\codegen\\": "src/"
+        }
+    }
+}
