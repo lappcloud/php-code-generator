@@ -19,7 +19,7 @@ json对象数组转php数组(通过模板过滤)
 
 ## 开发思路
 
-![Image text](url)
+![Image text](https://raw.githubusercontent.com/lappcloud/php-code-generator/master/doc/design.png)
 
 ## 安装
 推荐通过composer扩展的方式进行安装
