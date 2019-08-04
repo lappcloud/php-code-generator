@@ -3,7 +3,7 @@
     "description": "PHP代码生成",
     "type": "library",
     "require": {
-        "php": "^5.4"
+        "php": ">=5.4"
     },
     "require-dev": {
     },
