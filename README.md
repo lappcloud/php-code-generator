@@ -17,6 +17,8 @@ json对象数组转php数组(原样输出)
 
 json对象数组转php数组(通过模板过滤)
 
+json字符串美化（增加设置前缀）
+
 ## 开发思路
 
 ![Image text](https://raw.githubusercontent.com/lappcloud/php-code-generator/master/doc/design.png)
