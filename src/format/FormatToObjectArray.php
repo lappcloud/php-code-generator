@@ -14,7 +14,7 @@ class FormatToObjectArray
     public static function format($array, $arrKey) {
         $result = [];
         if ($arrKey) {
-            for ($i = 1; $i < count($arrKey); $i ++) {
+            for ($i = 1; $i < count($array); $i ++) {
                 $tmpArr = [];
                 foreach ($arrKey as $key) {
                     $tmpArr[$array[0][$key]] = $array[$i][$key];
