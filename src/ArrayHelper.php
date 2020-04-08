@@ -27,7 +27,7 @@ class ArrayHelper
                     $arrRes[] = $i;
                 }
             } else {
-                if ($tip) {
+		if (!is_null($tip)) {
                     $arrRes[] = $tip;
                 }
             }
